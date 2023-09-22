@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "title": "Ingenieria en sistemas computacionales",
+        "institution": "Universidad Virtual del Estado de Guanajuato",
+        "startYear": 2022,
+        "endYear": 2025,
+        "image": "uveg.webp"
+    },
+    {
+        "id": 2,
+        "title": "Certificado en Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL",
+        "institution": "Udemy",
+        "startYear": 2021,
+        "endYear": 2022,
+        "image": "udemy.svg",
+        "certificate": "https://www.udemy.com/certificate/UC-5f7a1601-1a0f-44f3-865b-778ffe6cf448/"
+    },
+    {
+        "id": 3,
+        "title": "Certificado en Desarrollo web backend",
+        "institution": "Oracle - One Next Education",
+        "startYear": 2023,
+        "endYear": 2023,
+        "image": "oracle.svg",
+        "certificate": "https://app.aluracursos.com/user/carlosgmdev/program/certificate"
+    }
+]

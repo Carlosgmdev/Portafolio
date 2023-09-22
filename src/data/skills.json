@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "name": "JavaScript",
+        "image": "javascript.png"
+    },
+    {
+        "id": 2,
+        "name": "React",
+        "image": "react.png"
+    },
+    {
+        "id": 3,
+        "name": "Java",
+        "image": "java.png"
+    },
+    {
+        "id": 4,
+        "name": "Spring Boot",
+        "image": "springboot.png"
+    },
+    {
+        "id": 15,
+        "name": "PHP",
+        "image": "php.png"
+    },
+    {
+        "id": 5,
+        "name": "MySQL",
+        "image": "mysql.png"
+    },
+    {
+        "id": 6,
+        "name": "HTML",
+        "image": "html.png"
+    },
+    {
+        "id": 7,
+        "name": "CSS",
+        "image": "css.png"
+    },
+    {
+        "id": 8,
+        "name": "Sass",
+        "image": "sass.png"
+    },
+    {
+        "id": 9,
+        "name": "Tailwind CSS",
+        "image": "tailwindcss.png"
+    },
+    {
+        "id": 10,
+        "name": "Git",
+        "image": "git.png"
+    },
+    {
+        "id": 11,
+        "name": "GitHub",
+        "image": "github.png"
+    },
+    {
+        "id": 12,
+        "name": "JWT",
+        "image": "jwt.png"
+    },
+    {
+        "id": 13,
+        "name": "Gulp",
+        "image": "gulp.png"
+    },
+    {
+        "id": 14,
+        "name": "Hibernate",
+        "image": "hibernate.png"
+    }
+
+]

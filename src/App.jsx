@@ -1,35 +1,42 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useEffect, useState } from "react"
+import Layout from "./layout/Layout"
+import Header from "./components/Header"
+import About from "./components/About"
+import Main from "./components/Main"
+import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+import Formations from "./components/Formations"
+import MobileMenu from "./components/MobileMenu"
+import Footer from "./components/Footer"
 
-function App() {
-  const [count, setCount] = useState(0)
+
+const App = () => {
+
+  const [mobileMenu, setMobileMenu] = useState(false)
+  const [theme, setTheme] = useState('light')
+
+  useEffect(() => {
+    if (theme === 'light') {
+      document.body.classList.remove('dark')
+    } else {
+      document.body.classList.add('dark')
+    }
+  }, [theme])
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {mobileMenu && <MobileMenu setMobileMenu={setMobileMenu} />}
+      <Layout>
+        <Header mobileMenu={mobileMenu} setMobileMenu={setMobileMenu} theme={theme} setTheme={setTheme}/>
+        <Main>
+          <About />
+          <Formations />
+          <Skills />
+          <Projects />
+        </Main>
+        <Footer/>
+      </Layout>
     </>
   )
 }
-
 export default App

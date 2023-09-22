@@ -1,0 +1,45 @@
+[
+    {
+        "id": 1,
+        "name": "DevForum",
+        "description": "Un foro para desarrolladores donde pueden responder y hacer preguntas",
+        "repository": "https://github.com/Carlosgmdev/DevForum",
+        "image": "devforum.png",
+        "stack": ["Java", "Springboot", "React", "Tailwindcss", "MySQL", "React Router", "Hibernate", "JWT"]
+    },
+    {
+        "id": 2,
+        "name": "DevHotel",
+        "description": "Una aplicación para reservar habitaciones de hotel con tematica de programación",
+        "repository": "https://github.com/Carlosgmdev/DevHotel",
+        "image": "devhotel.png",
+        "stack": ["Java", "Springboot", "React", "Tailwindcss", "MySQL", "React Router", "Hibernate"]
+    },
+    {
+        "id": 3,
+        "name": "Converter",
+        "description": "Apliacacion para realizar conversion de unidades",
+        "repository": "https://github.com/Carlosgmdev/Converter",
+        "image": "converter.png",
+        "stack": ["Java", "Java Swing", "REST API"]
+    },
+    {
+        "id": 4,
+        "name": "Control De Gastos",
+        "description": "Una aplicación para controlar los gastos personales",
+        "repository": "https://github.com/Carlosgmdev/ControlDeGastos",
+        "image": "controldegastos.png",
+        "stack": ["React"],
+        "demo": "https://musical-narwhal-1fdda1.netlify.app/"
+    },
+    {
+        "id": 5,
+        "name": "Veterinaria",
+        "description": "Una aplicación para gestionar pacientes de una veterinaria",
+        "repository": "https://github.com/Carlosgmdev/Veterinaria",
+        "image": "veterinaria.png",
+        "stack": ["React"],
+        "demo": "https://capable-meringue-f4128c.netlify.app/"
+    }
+
+]
