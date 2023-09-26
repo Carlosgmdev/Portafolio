@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://carlosgmdev.github.io/portafolio/",
+  "homepage": "https://carlosgmdev.github.io/Portafolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
