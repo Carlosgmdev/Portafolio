@@ -9,7 +9,7 @@ const Formations = () => {
                     formations.map(formation => (
                         <div key={formation.id} className='flex flex-col md:flex-row items-center justify-between p-4 rounded-xl blurBg gap-4 max-w-lg'>
                             <div className='w1/4'>
-                                <img src={`../assets/img/${formation.image}`} alt={`${formation.institution} logo`} className='w-20 h-20' />
+                                <img src={`../assets/${formation.image}`} alt={`${formation.institution} logo`} className='w-20 h-20' />
                             </div>
                             <div className='flex flex-col gap-1 justify-center w-3/4'>
                                 <h2 className='font-bold'>{formation.title}</h2>

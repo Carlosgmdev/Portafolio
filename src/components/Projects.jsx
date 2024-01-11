@@ -9,7 +9,7 @@ const Projects = () => {
                 {
                     projects.map(project => (
                         <div key={project.id} className='blurBg rounded-xl overflow-hidden max-w-xl '>
-                            <img src={`../assets/img/${project.image}`} alt={`${project.name} capture`} />
+                            <img src={`../assets/${project.image}`} alt={`${project.name} capture`} />
                             <div className='flex flex-col p-4 gap-4'>
                                 <h1 className='text-xl'>{project.name}</h1>
                                 <p>{project.description}</p>

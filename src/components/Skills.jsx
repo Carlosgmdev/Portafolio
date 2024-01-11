@@ -10,7 +10,7 @@ const Skills = () => {
                 {
                     skills.map(skill => (
                         <div key={skill.id} className='bg-white flex items-center justify-center p-2 rounded-xl blurBg'>
-                            <img src={`../assets/img/${skill.image}`} alt={`${skill.name} logo`} className='w-16' />
+                            <img src={`../assets/${skill.image}`} alt={`${skill.name} logo`} className='w-16' />
                         </div>
                     ))
                 }
