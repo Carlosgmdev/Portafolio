@@ -37,16 +37,16 @@ body.dark .blurBgHeader {
 }
 
 .formations, .projects {
-    background-image: url('./assets/blur-4.svg');
+    background-image: url('/assets/blur-4.svg');
 }
 
 
 .about {
-    background-image: url('./assets/blur-2.svg');
+    background-image: url('/assets/blur-2.svg');
 }
 
 .skills {
-    background-image: url('./assets/blur-1.svg');
+    background-image: url('/assets/blur-1.svg');
 }
 
 
